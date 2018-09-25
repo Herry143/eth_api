@@ -1,0 +1,28 @@
+{
+  "name": "eth_api",
+  "version": "1.0.0",
+  "description": "ethereum api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chips",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ethers": "^3.0.27",
+    "express": "^4.16.3",
+    "ffi": "^2.2.0",
+    "hapi": "^17.5.4",
+    "joi": "^13.3.0",
+    "level": "^4.0.0",
+    "request": "^2.87.0",
+    "web3": "^1.0.0-beta.34",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "supertest": "^3.1.0"
+  }
+}
